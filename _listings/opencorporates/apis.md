@@ -1,20 +1,14 @@
 ---
 name: OpenCorporates
 x-slug: opencorporates
-description: OpenCorporates is a website which shares data on corporate entities as
-  open data under the share-alike attribution Open Database License. It was created
-  by Chris Taggart and Rob McKinnon, under the auspices of their company, Chrinon
-  Ltd, and launched on 20 December 2010. It has the aims of creating a URL with such
-  data for every corporate entity in the world, importing government data relating
-  to companies and matching it to specific companies. The site also shows groups of
-  companies which are legally part of the same conglomerate. Basic company information
-  is available as open data in XML or JSON format.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
+description: Free and Open Company Data on 135 million companies and corporations
+  in over 125 jurisdictions, including US, UK, Switzerland, Panama...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "53526"
 tags: OpenCorporates
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-19"
+modified: "2018-06-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/opencorporates/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,8 +16,8 @@ apis:
   x-api-slug: opencorporates
   description: nThis returns the status of your API Account (this information may
     also be retrieved at https://OpenCorporates
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///account_status
   tags: Businesses,Account,Status
   properties:
@@ -32,8 +26,8 @@ apis:
 - name: OpenCorporates Companies  Jurisdiction Code  Company Number Data
   x-api-slug: opencorporates
   description: nThis returns the data held for the given company
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///companies/:jurisdiction_code/:company_number/data
   tags: Businesses,Companies,:jurisdiction,Code,:company,Number,Data
   properties:
@@ -43,8 +37,8 @@ apis:
   x-api-slug: opencorporates
   description: nThis returns the immediate &#39;computed corporate network&#39; for
     the given company as a set of control relationships (i
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///companies/:jurisdiction_code/:company_number/network
   tags: Businesses,Companies,:jurisdiction,Code,:company,Number,Network
   properties:
@@ -54,8 +48,8 @@ apis:
   x-api-slug: opencorporates
   description: nThis returns a collection of companies whose name matches the given
     search term (submitted as :q in the query parameters)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///companies/search
   tags: Businesses,Companies,Search
   properties:
@@ -65,8 +59,8 @@ apis:
   x-api-slug: opencorporates
   description: nThis returns a collection of corporate_groupings whose name matches
     the given search term (submitted as :q in the query parameters)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///corporate_groupings/search
   tags: Businesses,Corporate,Groupings,Search
   properties:
@@ -75,8 +69,8 @@ apis:
 - name: OpenCorporates Data  ID
   x-api-slug: opencorporates
   description: nThis returns information on a given datum
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///data/:id
   tags: Businesses,Data
   properties:
@@ -86,8 +80,8 @@ apis:
   x-api-slug: opencorporates
   description: nThis call returns further details about the code_scheme, together
     with the list of industry codes associated with it
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///industry_codes/:code_scheme_id
   tags: Businesses,Industry,Codes,:code,Scheme,Id
   properties:
@@ -96,8 +90,8 @@ apis:
 - name: OpenCorporates Jurisdictions Match
   x-api-slug: opencorporates
   description: nThis matches the name of a jurisdiction to the jurisdiction
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///jurisdictions/match
   tags: Businesses,Jurisdictions,Match
   properties:
@@ -107,8 +101,8 @@ apis:
   x-api-slug: opencorporates
   description: nThis returns information on a particular officer (a director or an
     agent for a company)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///officers/:id
   tags: Businesses,Officers
   properties:
@@ -117,8 +111,8 @@ apis:
 - name: OpenCorporates Placeholder  ID
   x-api-slug: opencorporates
   description: nA placeholder is we call something we believe is probably a company
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///placeholder/:id
   tags: Businesses,Placeholder
   properties:
@@ -127,8 +121,8 @@ apis:
 - name: OpenCorporates Placeholders  ID Statements
   x-api-slug: opencorporates
   description: nThis returns the statements associated with a given placeholder
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///placeholders/:id/statements
   tags: Businesses,Placeholders,Statements
   properties:
@@ -137,8 +131,8 @@ apis:
 - name: OpenCorporates Versions
   x-api-slug: opencorporates
   description: nThis returns the current version of the API and supported versions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///versions
   tags: Businesses,Versions
   properties:
@@ -152,8 +146,8 @@ apis:
     allows developers to access and integrate the data and functionality of OpenCorporates
     with other applications. Some example API methods include searching and retrieving
     information on corporation by type, jurisdiction, and company ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4/
   tags: OpenCorporates
   properties:
@@ -166,6 +160,8 @@ x-common:
   url: http://blog.opencorporates.com/
 - type: x-blog-rss
   url: http://blog.opencorporates.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/opencorporates
 - type: x-developer
   url: http://api.opencorporates.com/
 - type: x-github
@@ -178,6 +174,8 @@ x-common:
   url: https://opencorporates.com/info/licence
 - type: x-twitter
   url: https://twitter.com/opencorporates
+- type: x-website
+  url: http://opencorporates.com
 - type: x-website
   url: https://opencorporates.com/
 include: []
